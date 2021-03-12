@@ -1,6 +1,6 @@
 //===== LIBRARIES =====
 #include <TimerOne.h>
-#include "QEncoder.h"
+#include <QEncoder.h>
 
 //===== H-BRIDGE PINS =====
 #define M1_ENABLE 7
