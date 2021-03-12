@@ -8,8 +8,11 @@
 #define M1_A2    5
 
 //===== MOTOR OUTPUT PINS =====
-QEncoder motor1(3,A1);
-//QEncoder axis2(2,A2);
+#define M1_INTERRUPT 3
+#define M1_PHASE A1
+
+//===== SETUP MOTOR =====
+QEncoder motor1(M1_INTERRUPT, M1_PHASE);
 
 //===== SETUP =====
 void setup() {
@@ -24,7 +27,7 @@ void setup() {
 
   //Set the start position of the motor
   motor1.QEncWrite(0);
-  motor1.QEncResolution(2);
+  motor1.QEncResolution(1);
 
   //Activate the motor
   digitalWrite(M1_ENABLE, HIGH);
