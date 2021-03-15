@@ -1,5 +1,5 @@
 # QEncoder
-With this library you can control a Encoder motor.
+With this library you can read a Encoder motor.
 
 ## Components
 These are the components that I used
