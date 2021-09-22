@@ -1,6 +1,6 @@
 # QEncoder
 With this library you can read a Encoder motor.
-TEST
+
 
 ## Components
 These are the components that I used
